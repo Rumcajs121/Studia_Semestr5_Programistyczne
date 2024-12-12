@@ -1,0 +1,7 @@
+Zadanie 2.
+
+Opierając się na wiedzy o wzorcach:
+
+Abstract Factory
+Factory Method
+zrealizuj przykładowe programy wykorzystujące te wzorce.
