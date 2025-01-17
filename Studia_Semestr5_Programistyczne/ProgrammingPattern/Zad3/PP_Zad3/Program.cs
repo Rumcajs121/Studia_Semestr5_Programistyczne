@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using PP_Zad3;
 
-Console.WriteLine("Hello, World!");
+string input = @"
+[header]Nagłówek[/header]
+[paragraph]To jest paragraf.[/paragraph]
+";
+
+var document = HtmlParser.Parse(input.Trim());
+var output = document.Interpret();
+
+Console.WriteLine("Input:");
+Console.WriteLine(input);
+Console.WriteLine("Output:");
+Console.WriteLine(output);
