@@ -1,5 +1,3 @@
-Zadanie 4.
-
 Opierając się na wiedzy o wzorcu
 
 Builder
